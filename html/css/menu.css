@@ -1,0 +1,150 @@
+.auto-style2
+{
+	font-size: medium;
+	color: #666666;
+}
+
+.button
+{
+	cursor: pointer;
+}
+
+body
+{
+	margin-top: 10px;
+}
+
+img.shopping_cart
+{
+	width: 35px;
+	height: 35px;
+	vertical-align:middle;
+
+}
+
+td.login_text
+{
+	padding-top: 10px;
+	color: #999999;
+	font-size: 12px;
+	vertical-align: top;
+	height: 15px;
+}
+/* LOGIN/LOGOUT DROPDOWN BOX */
+
+#pass,
+#user
+{
+	padding-bottom:5px;
+}
+
+#cancel_btn
+{
+	float: right;
+}
+
+#logout_btn,
+#login_btn
+{
+	float: left;
+}
+
+#login_box
+{
+	display: none;	
+	position: absolute;
+	padding: 5px;
+	text-align: center;	
+	z-index: 5000;	
+	background-color: #DDDDDD;
+	border-style: ridge;	
+}
+
+#create
+{
+	text-align:left;
+	padding-left:15px;
+	padding-bottom:5px;
+}
+
+/* END DROPDOWN BOX */
+
+/* NEW MENU */
+
+.clearit
+{
+	margin: 0;
+	padding: 0;
+	height: 0;
+	clear: both;
+}
+
+.menu
+{
+	display: block;
+	max-width: 1022px;
+	min-width: 1022px;
+	height: 27px;
+	margin: 0;
+	margin-left: 3px;
+	padding: 0;
+	background: #000000 url(../images/Menu/menu.gif) top left repeat-x;
+}
+
+.menu ul
+{
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li
+{
+
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: transparent url(../images/Menu/menu_button.gif) top left no-repeat;
+}
+
+.menu ul li a
+{
+
+	height: 27px;
+	float: left;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue",helvetica,"microsoft sans serif",arial,sans-serif;
+	font-size: 70%;
+	color: #FFFFFF;
+	text-decoration: none;
+	background: transparent url(../images/Menu/menu_button.gif) top left no-repeat;
+	padding: 0;
+}
+
+.menu ul li a span.menu_ar
+{
+	display:block;
+	float: left;
+	width:100%;
+	height: 22px;
+	padding-top: 5px;
+	min-width: 146px;
+	background: transparent url(../images/Menu/menu_button.gif) top right no-repeat;
+	cursor: pointer;
+	text-align: center;
+}
+
+
+/* HOVER COLOR */
+/* COLOR OPTIONS: aqua, blue, gray, lime, orange, pink, purple, red	*/
+.menu ul li a:hover, .menu ul li.highlight a
+{
+	background: transparent url(../images/Menu/menu_lime.gif) top left no-repeat;
+}
+.menu ul li a:hover span.menu_ar, .menu ul li.highlight a span.menu_ar
+{
+	background: transparent url(../images/Menu/menu_lime.gif) top right no-repeat;
+}
+
+/* END NEW MENU */

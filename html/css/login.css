@@ -1,0 +1,66 @@
+table.login
+{
+	width: 1024px;
+}
+
+table.login table
+{
+	border-width: 1px;
+	border-style: outset;
+	
+	width: 300px;
+}
+
+table.signup
+{
+	border-width: 1px;
+	border-style: outset;
+}
+
+div.errortext
+{
+	color: red;
+}
+
+img.sm_phone
+{
+	max-width: 70px;
+	height: 70px;
+	float: left;
+}
+
+div.sm_phone
+{
+	border-width: 1px;
+	border-style: outset;
+	float: left;
+	text-align: left;
+	min-width: 200px;
+	max-width: 200px;
+}
+
+div.sm_phone label.PhoneModel
+{
+	font-size: 12pt;
+}
+
+div.sm_phone label.Make
+{
+	vertical-align: top;
+}
+
+.rem_favorite
+{
+	float: right;
+	height: 70px;
+}
+
+.rem_favorite > img,
+.rem_favorite > input
+{
+	position: relative;
+	right: 2px;
+	top: 52px;
+}
+
+

@@ -1,0 +1,46 @@
+/*CSS used for search.php */
+table.search_box
+{
+	border-width: 1px;
+	border-style: outset;
+	border-color: gray;
+	border-collapse: collapse;
+	background-color: white;
+	
+}
+
+table.search_box th
+{
+	min-width: 120px;
+
+	border: 1px;
+	border-color: gray;
+
+	border-left: 1px;
+	border-left-color: #D8D8D8;
+	border-right: 1px;
+	border-right-color: #D8D8D8;
+
+	padding: 1px;
+	border-style: inset;
+}
+
+table.search_box td
+{
+	border: 1px;
+	border-color: gray;
+
+	border-left: 1px;
+	border-left-color: #D8D8D8;
+	border-right: 1px;
+	border-right-color: #D8D8D8;
+
+	padding: 1px;
+	border-style: inset;
+}
+
+img.search_img
+{
+	width: 160px;
+	height: 160px;
+}

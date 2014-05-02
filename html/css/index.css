@@ -1,0 +1,102 @@
+#dynamic
+{
+	width:1024px;
+}
+
+#dynamic tr
+{
+	width:inherit;
+}
+
+#dynamic td
+{
+	background-image:url('../images/HP_Image_Layers_merged-psd.png');
+	width: 1020px;
+	height: 290px;
+	text-align: justify;
+	color: #FFFFFF;
+	padding-top: 10px;
+	padding-left: 580px;
+	padding-right: 10px;
+}
+
+div.main
+{
+	height:450px;
+	font-family:Calibri;
+	color:#4E358C;
+	width:1020px;
+}
+
+.footer
+{
+	font-size: x-small;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #CCCCCC;
+}
+
+.footer a
+{
+	text-decoration: none;
+}
+
+/*LOWER MENU*/
+#lower_menu
+{
+	width: 100%;
+}
+
+#lower_menu td
+{
+	width: 256px;
+	text-align: center;
+}
+#lower_menu tr.img
+{
+	font-family: Calibri;
+	font-weight: bolder
+}
+
+#lower_menu ul
+{
+	list-style-type: none;
+	text-align: left;	
+	font-size: small;
+	line-height:1.3;
+}
+
+#lm_alt
+{
+	margin-left:40px;
+}
+
+#lm_online
+{
+	margin-left:35px;
+}
+
+#lm_support
+{
+	margin-left:65px;
+}
+/* PICTURES */
+div.OO, div.SO, div.WN, div.SP
+{	
+	background: url('../images/lowermenu.png');
+	width: 74px; 
+	height: 79px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.OO
+{	background-position: 0px 0px; }
+
+div.SO
+{	background-position: 0px -79px; }
+
+div.WN
+{	background-position: 0px -158px; }
+
+div.SP
+{	background-position: 0px -237px; }

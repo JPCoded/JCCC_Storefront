@@ -1,0 +1,10 @@
+﻿mainMenu {
+	background-color: #00AA55;
+	font-family: Helvetica;
+	font-size: 14px; 
+	font-weight: 600; 
+	color: #FFFFFF;
+	text-align:center;
+	border-style:solid;
+	border-width:thin
+}

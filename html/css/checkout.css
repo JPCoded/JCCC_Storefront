@@ -1,0 +1,62 @@
+#tblDetails, #tblItem, #tblHeader, #tblContainer, #tblInvoice
+{
+	border-collapse:collapse;
+}
+
+#tblItem, #tblHeader, #tblContainer
+{
+	width:100%;
+}
+
+
+#tblDetails td, #tblItem td, #tblHeader td, #tblInvoice td
+{
+	border:1px solid green;
+}
+
+#tblDetails
+{
+	width:60%;
+}
+
+#tblDetails td.alt
+{
+	padding-left:20px;
+	text-align:right;
+}
+
+.alt
+{
+	text-align:right;
+}
+
+:hover.alt a, a.alt, a.flip
+{
+	background-image: none;
+	color:white;
+}
+
+#tblItem th
+{
+	color:#FFFFAA;
+	text-align:left;
+	background-color:green;
+}
+
+#tblHeader, #tblInvoice th
+{
+	background-color: green;
+	color:white;
+}
+
+#tblInvoice
+{
+	width:10px;
+	text-align:center;
+	
+}
+
+#tblInvoice th
+{
+	text-align:center;
+}

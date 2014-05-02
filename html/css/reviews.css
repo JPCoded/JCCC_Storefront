@@ -1,0 +1,109 @@
+
+.review_box
+{
+	border-width: 1px;
+	border-style: outset;
+	border-color: gray;
+	background-color: white;
+	
+	width: 1000px;
+	height: 100px;
+}
+
+.review_box > div,
+.phone_data > div
+{
+	min-width: 150px;
+	display: inline-block;
+}
+
+.review_box .phone_data
+{
+	padding: 3px;
+	width: 400px;
+	
+	vertical-align: top;
+}
+
+.review_box .review_data
+{
+	padding: 3px;
+	display: inline-block;
+	height: 94px;
+	width: 475px;
+	
+	vertical-align: top;
+}
+
+span.retail
+{
+	font-size: 16px;
+	font-weight: bold;
+	vertical-align: top;
+	color:  #4E358C;
+}
+
+img.review_img
+{
+	min-width: 96px;
+	width: 96px;
+	height: 96px;
+}
+
+.review_box .PhoneModel
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #27865a;
+}
+
+.review_box .Make
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.original_retail_sm
+{
+	font-size: 14px;
+	font-weight: bold;
+	vertical-align: top;
+	color:  red;
+	text-decoration: line-through;
+}
+
+.classification
+{
+	position: relative;
+	width: 91px;
+	height: 17px;
+	
+	display: inline-block;
+	vertical-align: bottom;
+	padding-bottom: 1px;
+}
+
+.classification .cover
+{
+	position: absolute;
+	background: transparent url(../images/stars.png) top left no-repeat;
+	top: 0px;
+	left: 0px;
+	width: 91px;
+	height: 17px;
+	z-index: 101;
+}
+
+.classification .progress
+{
+	position: absolute;
+	background: transparent url(../images/stars_full.png) top left no-repeat;
+	top: 0px;
+	left: 0px;
+	height: 17px;
+	z-index: 102;
+}

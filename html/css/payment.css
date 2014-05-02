@@ -1,0 +1,21 @@
+#credtb td
+{
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+#shiptb
+{
+	width:500px;
+}
+
+.right
+{
+	text-align:left;
+	padding-right:10px;
+}
+
+.fieldset-auto-width
+{
+	display:inline-block;
+}

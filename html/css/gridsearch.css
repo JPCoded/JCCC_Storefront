@@ -1,0 +1,73 @@
+table.search_grid
+{
+	border-width: 1px;
+	border-style: outset;
+	border-color: gray;
+	background-color: white;
+	height: 320px;
+}
+
+table.search_grid > tr > td
+{
+	min-width: 341px;
+	max-width: 341px;
+	width: 341px;
+}
+
+img.search_img
+{
+	min-width: 160px;
+	width: 160px;
+	height: 160px;
+}
+
+.search_grid .PhoneModel
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: bold;
+	color: #27865a;
+}
+
+.search_grid .Make
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+#HoverMouse :hover
+{
+	cursor: pointer;
+	border-width: 1px;
+	border-color: #666666;
+	border-style: inset;
+	background-color: #eaf9ec;
+}
+
+#HoverMouse * :hover
+{
+	border: none;
+}
+
+#HoverMouse a, img :hover
+{
+	background-image:none !important;
+}
+
+.DescriptionText
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.MainText
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #4E358C;
+}

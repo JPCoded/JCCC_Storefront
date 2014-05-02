@@ -1,0 +1,17 @@
+<!-- This text file is shown on front page so here's some basic info about it:
+		1. This file outputs it's text as html so any html used will be shown as if this was an html page. Example: <b>something</b> will show the word, something, as bold.
+		2. Please use <br/> after each line break or anywhere you want to end current line and start new line. Otherwise text will not stop at edge.
+		3. Try to keep the length of text to a maximum of 80 characters. This can change depended on screen but 80 should be ok on most screens. This is NOT including html since the code itself isn't shown. 
+-->
+<b>Lorem</b> ipsum dolor sit amet, consectetur adipiscing.<br/>
+Vivamus vel enim sit amet arcu iaculis dictum.<br/>
+In vehicula elit vitae metus gravida eget convallis.<br/>
+Mauris varius blandit urna, non egestas leo.<br/>
+Vestibulum ut felis ac diam mattis iaculis a eget.<br/>
+Nunc in enim id nunc dictum laoreet.<br/>
+Ut et ipsum in ligula blandit pulvinar.<br/>
+Mauris accumsan varius eros, ut tempor enim semper.<br/>
+Morbi quis velit nec libero laoreet molestie vitae.<br/>
+Mauris viverra tortor vitae justo ultricies at blandit.<br/>
+Sed nec dolor a mauris pharetra malesuada at gravida.<br/>
+

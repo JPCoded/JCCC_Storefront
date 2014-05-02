@@ -1,0 +1,36 @@
+.contact 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20pt;
+	color: #27865A;
+	vertical-align: top;
+}
+
+.txtArea 
+{ margin-left: 0px; }
+
+.MainText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4E358C;
+}
+
+.Names,.Phone,.Email,.Message
+{
+	text-align: left;
+	color: #4E358C;
+}
+
+.Names
+{ margin-right:40px; }
+
+.Phone 
+{ margin-right:15px; }
+
+.Email
+{ margin-right:71px; }
+
+#FirstName,#LastName,#PhoneNumber,#Email
+{ width:220px; }
